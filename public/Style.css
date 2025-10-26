@@ -1,4 +1,4 @@
-    :root {
+:root {
       --dark-bg: #121212;
       --gold: #c58b3b;
       --silver: #c0c0c0;
@@ -96,6 +96,7 @@
       max-width: 700px;
       margin: 1rem auto 2rem;
     }
+    
 
     .about {
       background: #1e1e1e;
@@ -223,7 +224,7 @@
       border-top: 6px solid var(--gold);
     }
     .package.diamond {
-      border-top: 6px solid var(--green);
+      border-top: 6px solid blue;
     }
 
     .package h3 {
@@ -316,3 +317,50 @@
         font-size: 2rem;
       }
     }
+    
+.text {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #ffffff, #5E5E5E, #ffffff);
+  background-clip: text;
+  color: transparent;
+  background-size: 200% 100%;
+  animation: shimmer 5s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+#gold{
+  
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #b48400, #ffe93e, #b48400);
+  background-clip: text;
+  color: transparent;
+  background-size: 200% 100%;
+  animation: shimmer 4s linear infinite;
+
+}
+#dia{
+  
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #001786, #1bafff, #04007b);
+  background-clip: text;
+  color: transparent;
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+
+}
